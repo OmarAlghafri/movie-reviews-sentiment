@@ -1,4 +1,4 @@
-# 🎬 IMDB Movie Reviews Sentiment Analysis
+# IMDB Movie Reviews Sentiment Analysis
 
 GPT-2 based Sentiment Classification on 50K Movie Reviews
 
@@ -8,7 +8,7 @@ GPT-2 based Sentiment Classification on 50K Movie Reviews
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -23,7 +23,7 @@ GPT-2 based Sentiment Classification on 50K Movie Reviews
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project implements a **GPT-2 based sentiment classifier** for movie reviews from the IMDB dataset. The model classifies reviews as either **positive** or **negative** using state-of-the-art transformer architecture.
 
@@ -41,7 +41,7 @@ We leverage the pre-trained GPT-2 model and fine-tune it for binary sentiment cl
 
 ---
 
-## ✨ Features
+## Features
 
 - **GPT-2 Based Model**: Leverages pre-trained transformer for superior performance
 - **Complete Training Pipeline**: From data loading to model evaluation
@@ -52,7 +52,7 @@ We leverage the pre-trained GPT-2 model and fine-tune it for binary sentiment cl
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [IMDB Dataset of 50k Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
@@ -66,7 +66,7 @@ We leverage the pre-trained GPT-2 model and fine-tune it for binary sentiment cl
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -101,7 +101,7 @@ pip install -e .
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Quick Start
 
@@ -143,7 +143,7 @@ jupyter notebook notebooks/experiments.ipynb
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Architecture Overview
 
@@ -182,7 +182,7 @@ Given input tokens $x = \{x_1, x_2, ..., x_n\}$:
 
 ---
 
-## 🎯 Training
+## Training
 
 ### Hyperparameters
 
@@ -207,7 +207,7 @@ python scripts/train.py \
 
 ---
 
-## 📈 Results
+## Results
 
 ### Performance Metrics
 
@@ -228,7 +228,7 @@ python scripts/train.py \
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 movie-reviews-sentiment/
@@ -263,7 +263,7 @@ movie-reviews-sentiment/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Edit `configs/config.yaml` to customize:
 
@@ -283,13 +283,13 @@ training:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -301,7 +301,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Author:** Omar Alghafri
 
@@ -309,7 +309,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
 - [IMDB Dataset on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
